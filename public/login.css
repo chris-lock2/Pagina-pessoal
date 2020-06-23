@@ -1,0 +1,69 @@
+#form_login, .login{
+    padding: 0;
+    font-size: 19px;
+    text-align: -webkit-center;
+    color: white;
+  }
+  .loginConteudo{
+    margin-top: 65px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.466);
+  }
+  .loginConteudo img{
+    width: 110px;
+    filter: invert(75%);
+  }
+  #form_login input[type="text"], #form_login input[type="password"]{
+    width: 280px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .btnform{
+    margin: 5px 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    background: rgba(4, 85, 161, 0.781);
+    transition: 250ms;
+    color: black;
+  }
+  .btnform:hover{
+    background: rgba(1, 41, 78, 0.781);
+    transition: 250ms;
+    color: white;
+    cursor: pointer;
+  }
+  body{
+    background: url("https://wallpapercave.com/wp/wp3219866.jpg") no-repeat center 100% fixed;
+  }
+  footer{
+    border: 1px solid white;
+    margin: 125px 0 0 0;
+    height: 35px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px; 
+    background: rgba(0, 0, 0, 0.336);
+    transition: 300ms;
+  }
+  footer:hover{
+    transition: 300ms;
+    background: rgba(0, 0, 0, 0.692);
+  }
+  footer a{
+      text-decoration: none;
+      color: yellow;
+  }
+  footer a:hover{
+    transition: 300ms;
+    color: rgba(6, 146, 240, 0.753);
+  }

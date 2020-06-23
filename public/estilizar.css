@@ -1,8 +1,9 @@
 /*Inicio*/
 body{
     margin: 0;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background:linear-gradient(rgba(12, 101, 160, 0.788), rgba(218, 221, 32, 0.788), rgba(233, 34, 34, 0.788)) no-repeat center top fixed;
+    background: url("https://www.osmais.com/wallpapers/201309/cabana-floresta-wallpaper.jpg") no-repeat center 100% fixed;
 }
 .navbar{
     margin-top: -15px;
@@ -46,13 +47,19 @@ body{
     width: 345px;
     text-align: center;
   }
+  .cardbox:hover{
+    font-weight: bold;
+    font-size: 23px;
+    color: blue;
+  }
 .cardbox img{
     width: 85px;
     border-radius: 25px;
+    filter: invert(75%);
 }
 /*Música*/
 .boxList{
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 5px 10px;
   border-radius: 5px;
   padding: 5px 10px;
@@ -70,7 +77,7 @@ audio{
 }
 .playlist a{
   text-decoration: none;
-  color: black;
+  color: blue;
   transition: 250ms;
   font-size: 20px;
 }
@@ -85,17 +92,13 @@ audio{
   padding-bottom: 10px;
   width: 290px;
 }
-.box{
-  border: 1px solid black;
-  margin: 3px;
+.boxList h1{
   text-align: center;
-}
-.box h1{
-  text-align: center;
+  color: rgba(238, 38, 71, 0.856);
 }
 /*Esporte*/
 .boxSport{
-  border: 1px solid black;
+  border: 1px solid white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 99%;
@@ -103,10 +106,16 @@ audio{
     margin: 5px;
 }
 .box_esporte{
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 3px;
   text-align: center;
   border-radius: 50px;
+  font-weight: bold;
+  transition: 250ms;
+}
+.box_esporte:hover{
+  background: rgba(0, 0, 0, 0.726);
+  transition: 250ms;
 }
 .box_esporte img{
   width: 185px;
@@ -147,24 +156,25 @@ audio{
   font-size: 37px;
   margin-left: 80%;
 }
-
-/*Login*/
-.login{
-  text-align: center;
-}
 /*Games*/
 .gameList img{
   width: 200px;
   border-radius: 20px;
 }
 .card{
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 2px;
   width: 95%;
   margin: 10px;
   text-align: center;
   font-size: 17px;
   border-radius: 10px;
+  font-weight: bold;
+  transition: 250ms;
+}
+.card:hover{
+  background: rgba(0, 0, 0, 0.74);
+  transition: 250ms;
 }
 .gameList{
   display: grid;
