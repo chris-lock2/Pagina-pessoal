@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilização.css">
+    <script src="function.js"></script>
+    <title>Música</title>
+</head>
+<body>
+        <div class="sidebar" id="mySidebar">
+            <a href="#" class="closebtn" onclick="closeNav()">x</a>
+            <a href="inicio.html">Inicio</a>
+            <a href="jogos.html">Jogo</a>
+            <a href="esporte.html">Esporte</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li><a href="#" onclick="logoff()">Logout</a></li>
+                <li>Música</li>
+                <a class="openbtn" onclick="openNav()">☰</a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="boxList">
+            <h1>MusicList</h1>
+            <audio src="" controls id="audioPlayer" autoplay ="false"></audio>
+            <div class="playlist">
+                <ul id="playlist">
+                    <li class="current-song"><a href="music/AA-AProphecy.mp3">A Prophecy</a></li>
+                    <li><a href="music/AA-SomeoneSomewhere.mp3">Someone, Somewhere</a></li>
+                    <li><a href="music/Architects-Doomsday.mp3">Doomsday</a></li>
+                    <li><a href="music/BMTH-TrueFriends.mp3">True Friends</a></li>
+                    <li><a href="music/BRING ME THE HORIZON - Drown (New 2015 Version).mp3">Drown</a></li>
+                    <li><a href="music/Bullet For My Valentine - Tears Dont Fall.mp3">Tears Dont Fall</a></li>
+                    <li><a href="music/Can You Feel My Heart.mp3">Can You Feel My Heart</a></li>
+                    <li><a href="music/Linkin Park - Papercut.mp3">Papercut</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="boxList">
+            <h1>BandList</h1>
+            <div class="playlist">
+                <ul class="list"> 
+                    <h2>HardCore</h2>
+                    <li>Asking Alexandria</li>
+                    <li>Bring Me The Horizon</li>
+                    <li>Chelsea Grin</li>
+                    <li>Suicide Silence</li>
+                    <li>Bullet For My Vallentine</li>
+                    <li>Architects</li>
+                    <li>Parkway Drive</li>
+                </ul>
+                <ul class="list">
+                    <h2>Rock</h2>
+                    <li>AC/DC</li>
+                    <li>Metallica</li>
+                    <li>Pink Floyd</li>
+                    <li>Guns 'n' Roses</li>
+                    <li>Nirvana</li>
+                    <li>Linkin Park</li>
+                </ul>
+                <ul class="list">
+                    <h2>Rap</h2>
+                    <li>Eminem</li>
+                    <li>Nate Rose</li>
+                    <li>Nathan Feuerstein</li>
+                    <li>Tupac</li>
+                    <li>Ice Cube</li>
+                    <li>Jay Z</li>
+                    <li>Big Notorius</li>
+                </ul>
+                <ul class="list">
+                    <h2>Eletronica</h2>
+                    <li>Skrillex</li>
+                    <li>DubStep</li>
+                    <li>TrapStep</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="player.js"></script>

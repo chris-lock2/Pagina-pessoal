@@ -1,0 +1,234 @@
+/*Inicio*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(rgba(12, 101, 160, 0.788), rgba(218, 221, 32, 0.788), rgba(233, 34, 34, 0.788)) no-repeat center top fixed;
+}
+.navbar{
+    margin-top: -15px;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.600);
+  }
+.navbar ul li{
+    margin: 15px 90px 15px 10px;
+    float: right;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+  }
+.navbar a{
+  color: white;
+  text-decoration: none;
+  transition: 250ms;
+}
+.navbar a:hover{
+  color: rgb(0, 153, 255);
+  transition: 250ms;
+}
+.container{
+    display: flex;
+    margin-top: 225px;
+  }
+.imagemPrincipal img{
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width: 100px;
+}
+.cardbox{
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 980px;
+    margin: 5px 5% 5px 5%;
+    width: 345px;
+    text-align: center;
+  }
+.cardbox img{
+    width: 85px;
+    border-radius: 25px;
+}
+/*Música*/
+.boxList{
+  border: 1px solid black;
+  margin: 5px 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+audio{
+  width: 35%;
+  margin: 10px 75px;
+  float: right;
+}
+#playlist{
+  list-style-type: none;
+}
+.playlist{
+  display: flex;
+}
+.playlist a{
+  text-decoration: none;
+  color: black;
+  transition: 250ms;
+  font-size: 20px;
+}
+.playlist a:hover{
+  color: green;
+  transition: 250ms;
+}
+.list{
+  list-style-type: none;
+  text-align: initial;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 290px;
+}
+.box{
+  border: 1px solid black;
+  margin: 3px;
+  text-align: center;
+}
+.box h1{
+  text-align: center;
+}
+/*Esporte*/
+.boxSport{
+  border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 99%;
+    width: 100%;
+    margin: 5px;
+}
+.box_esporte{
+  border: 1px solid black;
+  margin: 3px;
+  text-align: center;
+  border-radius: 50px;
+}
+.box_esporte img{
+  width: 185px;
+  border-radius: 50px;
+}
+/*SideBar*/
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  background-color: rgba(0, 0, 0, 0.650);
+  position: fixed;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  background-color: #818181;
+}
+
+.sidebar .closebtn {
+  font-size: 37px;
+  margin-left: 80%;
+}
+
+/*Login*/
+.login{
+  text-align: center;
+}
+/*Games*/
+.gameList img{
+  width: 200px;
+  border-radius: 20px;
+}
+.card{
+  border: 1px solid black;
+  padding: 2px;
+  width: 95%;
+  margin: 10px;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 10px;
+}
+.gameList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 99%;
+}
+.card h3{
+  text-align: center;
+}
+/*Contato*/
+.main-Suporte > .suporte >div{
+  width: 45%;
+    height: 610px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+.main-Suporte > .suporte >div:nth-child(3){
+  background-color: transparent;
+}
+.iconLottie{
+  width: 100%!important;
+  height: 510px;
+}
+form{
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+}
+form label{
+  display: block;
+  margin-top: 10px;
+}
+.read textarea{
+  height: 230px;
+  resize: none;
+}
+.read input{
+  height: 40px;
+}
+.read .btnSubmit{
+  height: 40px;
+  background-color: #2ecc71;
+  cursor: pointer;
+}
+.read .btnSubmit:hover{
+  background-color: #27ae60;
+}
+.read input, .read textarea, .btnSubmit{
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+input:focus, textarea:focus{
+  border: 2px solid blueviolet;
+}
+  .main-Suporte > .container >div{
+      width: 100%;
+      height: 550px;
+      display: block;
+}
+.suporte h1{
+  margin: 5px 0 0 35px;
+}
