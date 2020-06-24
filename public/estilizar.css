@@ -63,6 +63,11 @@ body{
   margin: 5px 10px;
   border-radius: 5px;
   padding: 5px 10px;
+  transition: 250ms;
+}
+.boxList:hover{
+  transition: 250ms;
+  background: rgba(0, 0, 0, 0.74);
 }
 audio{
   width: 35%;
